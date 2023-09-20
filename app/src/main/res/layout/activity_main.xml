@@ -52,4 +52,14 @@
         android:text="Button"
         app:layout_constraintBottom_toTopOf="@+id/editTextNumber3"
         app:layout_constraintStart_toStartOf="@+id/editTextNumber3" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:onClick="abrirJanela"
+        android:text="Abrir"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button"
+        app:layout_constraintStart_toEndOf="@+id/button" />
 </androidx.constraintlayout.widget.ConstraintLayout>
