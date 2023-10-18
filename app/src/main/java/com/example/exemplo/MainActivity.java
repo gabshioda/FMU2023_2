@@ -45,12 +45,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, TipCalculatorActivity.class);
         startActivity(intent);
     }
-
-    public void abrirJanelaDesenho(View view) {
-        Intent intent = new Intent(this, MainActivityDesenho.class);
-        startActivity(intent);
-    }
-
-    public static class DesenhoView {
+    public void abrirDatabase(View view) {
+    Intent intent = new Intent(this, DatabaseActivity.class);
+    startActivity(intent);
     }
 }
